@@ -1,0 +1,17 @@
+#Dart
+
+keywords
+
+Const - value never changes at compile-time.
+
+Final - variable/val always const at compile time and runtime
+
+Type test operator is is! as
+
+Optional func parameter in Dart put it in brackets [int age]
+
+MyClass(this.prop, this.num, this.isEnabled);
+MyClass.setname = "The name";
+MyClass.getname; (The name)
+
+toString(); method returns a what the object can be overrided

@@ -15,6 +15,7 @@ class GitHubFlutterState extends State<GitHubFlutter> {
   }
   var _members = <Member>[];
   final _biggerFont = const TextStyle(fontSize: 22.0);
+
   _loadData() async {
     String dataURL = "https://api.github.com/orgs/google/members";
     http.Response response = await http.get(dataURL);
